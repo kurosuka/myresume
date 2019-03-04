@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import 'fullpage.js/vendors/scrolloverflow'
 import VueFullPage from 'vue-fullpage.js'
+import animate from 'animate.css'
 Vue.config.productionTip = false
 
 Vue.use(VueFullPage)
