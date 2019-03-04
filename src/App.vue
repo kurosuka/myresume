@@ -3,7 +3,9 @@
         <ul id="menu">
             <li data-menuanchor="page1" class="active"><a href="#page1">个人信息</a></li>
             <li data-menuanchor="page2"><a href="#page2">工作经历</a></li>
-            <li data-menuanchor="page3"><a href="#page3"></a></li>
+            <li data-menuanchor="page3"><a href="#page3">专业技能</a></li>
+			<li data-menuanchor="page3"><a href="#page4">项目集</a></li>
+			<li data-menuanchor="page3"><a href="#page5">自我评价</a></li>
         </ul>
         <full-page :options="options" id="fullpage">
             <div class="section" id="section1">
@@ -65,7 +67,7 @@
           menu: '#menu',
           navigation: true,
           recordHistory:false,
-          anchors: ['page1', 'page2', 'page3'],
+          anchors: ['page1', 'page2', 'page3','page4','page5'],
           sectionsColor: ['#87b0a5', '#109085', '#4d5e8f', '#945c4c', '#a29971', '#ee1a59', '#2c3e4f', '#ba5be9', '#b4b8ab']
         }
       }
@@ -152,13 +154,13 @@
 	.work{
 		background: #ffffff;;
 		color: #35495E;
-		height:300px;
 		width: 700px;
 		margin: 0 auto;
 		box-shadow: 0px 0px 16px #ffffff;
 		border-radius: 4px;
+		padding-bottom: 15px;
 	}
 	.work>div{font-size: 28px; padding-top: 15px; padding-left: 15px;}
-	.work>span{font-size: 20px; padding-left: 15px; padding-top: 15px; display: inline-block;}
+	.work>span{font-size: 20px; padding-left: 15px; padding-top: 15px; display: inline-block; padding-right: 15px}
 	.work section>span{font-size: 16px;padding-left: 15px;padding-top: 10px; display: block;}
 </style>
