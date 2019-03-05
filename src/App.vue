@@ -52,6 +52,12 @@
             <div class="section" id="section3">
                 <h3>Section 3</h3>
             </div>
+            <div class="section" id="section3">
+                <h3>Section 3</h3>
+            </div>
+            <div class="section" id="section3">
+                <h3>Section 3</h3>
+            </div>
         </full-page>
     </div>
 </template>
