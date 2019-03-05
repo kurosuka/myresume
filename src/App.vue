@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+    	<music></music>
         <ul id="menu">
             <li data-menuanchor="page1" class="active"><a href="#page1">个人信息</a></li>
             <li data-menuanchor="page2"><a href="#page2">工作经历</a></li>
@@ -54,8 +55,10 @@
 </template>
 
 <script>
+	import music from "./components/Music.vue"
   export default {
     name: 'app',
+    components:{music},
     data () {
       return {
         options: {
@@ -161,4 +164,5 @@
 	.work>div{font-size: 28px; padding-top: 15px; padding-left: 15px;}
 	.work>span{font-size: 20px; padding-left: 15px; padding-top: 15px; display: inline-block;}
 	.work section>span{font-size: 16px;padding-left: 15px;padding-top: 10px; display: block;}
+	#music{background: #000000; width: 40px; height: 40px; position: absolute;top: 0;left: 0; z-index:99; margin-top: 5px; margin-left:10px;}
 </style>
